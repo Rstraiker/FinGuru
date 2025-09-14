@@ -1,4 +1,3 @@
 .gitgnore
 .venv
-.tests
-.pyproject.toml
+tests/
