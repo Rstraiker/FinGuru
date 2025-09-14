@@ -1,3 +1,4 @@
 .gitgnore
 .venv
-tests/
+.tests/
+.src/finguru/__pycache__
