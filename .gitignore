@@ -1,4 +1,11 @@
-.gitgnore
-.venv
-.tests/
-.src/finguru/__pycache__
+# Ignorar virtualenv
+venv/
+
+# Ignorar cache do Python
+__pycache__/
+
+# Ignorar arquivos de teste (se quiser)
+tests/
+
+# Ignorar arquivos compilados
+*.pyc
