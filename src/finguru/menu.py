@@ -33,16 +33,21 @@ def menuCreditar():
     categories = ['Salario', 'Vendas', 'Bonus', 'Reembolso' ]
     showOptions(categories)
     opcao = int(input('Select: '))
+    valor = float(input('Valor: '))
     if categories[opcao-1] == 'Reembolso':
         limpar_terminal()
         title('Selecione Opção de Reembolso')
         showOptions(categoriesDeb)
-        
-        
+        reembolso = input('Select: ')
+        #reembolsar(categoria = categoriesDeb[opcao-1], valor=float )
+    else:
+        #creditar(categoria = categories[opcao-1], valor)
+        print('Valor creditado')
+    menu()
     
 def menu():
     
-    opcoes = ['Creditar', 'Debitar', 'Sair']
+    opcoes = ['Creditar', 'Debitar', 'Informacoes' ,'Sair']
     limpar_terminal()
     title('Selecione Sua Opção')
     showOptions(opcoes)
@@ -55,6 +60,6 @@ def menu():
             menuDebitar()
         case 3:
             print('oi')
-            #sair
-        
+            
+
 
