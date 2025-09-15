@@ -45,6 +45,12 @@ def menuCreditar():
         print('Valor creditado')
     menu()
     
+    
+def showStatistics():
+    title('Dados gerais')
+    # Recebimentos = getRecebimentos()
+    # Gastos = getGastos()
+    # saldo = getSaldo()
 def menu():
     
     opcoes = ['Creditar', 'Debitar', 'Informacoes' ,'Sair']
