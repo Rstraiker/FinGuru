@@ -7,6 +7,7 @@ class operacao(sm.SQLModel, table=True):
     valor: float
     tipo: str  # 'debito' ou 'credito'
 
+
 def debitar(categoria: str, valor: float):
     # fazer todo o processo
     print("operação realizada com sucesso")
